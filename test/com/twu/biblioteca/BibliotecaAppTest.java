@@ -1,6 +1,7 @@
 package com.twu.biblioteca;
 
 import org.junit.Test;
+import sun.plugin2.message.Message;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,7 +10,7 @@ public class BibliotecaAppTest {
 
     @Test
     public void userSeeWelcomeMessage() {
-        assertEquals("Welcome",  _bibliotecaApp.welcomeMessage());
+        assertEquals(MessageHelper.welcome,  _bibliotecaApp.welcomeMessage());
 
     }
 }
