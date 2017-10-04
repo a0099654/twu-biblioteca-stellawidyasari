@@ -24,8 +24,8 @@ public class Book extends Item {
     }
 
     public String getInfo(){
-        String whitespaceForTitle = String.format("%-30s", _title);
-        String whitespaceForAuthor = String.format("%-30s", _author);
+        String whitespaceForTitle = String.format("%-20s", _title);
+        String whitespaceForAuthor = String.format("%-20s", _author);
 
         return String.format("%s | %s | %s\n",
                 whitespaceForTitle,

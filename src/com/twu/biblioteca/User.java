@@ -46,8 +46,9 @@ public class User {
     public String getInfo(){
 
         return "User Information:\n\n"+
-                "Name:         " + _name +  "\n" +
-                "Email:        " + _email + "\n" +
-                "Phone number: " + _phone + "\n";
+                "Name:          " + _name +  "\n" +
+                "Email:         " + _email + "\n" +
+                "Phone number:  " + _phone + "\n" +
+                "Library number:" + _libraryNo + "\n" ;
     }
 }
