@@ -35,7 +35,7 @@ public class Biblioteca {
 
     }
 
-    public void getBookListDetails(){
+    public String getBookListDetails(){
         String booksLists = "";
 
         for(Book book: _bookList){
@@ -43,6 +43,8 @@ public class Biblioteca {
                 booksLists += book.getInfo();
             }
         }
+
+        return booksLists;
     }
 
     public boolean checkoutBook(String bookTitle, String libraryNo){

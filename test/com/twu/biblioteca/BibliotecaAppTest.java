@@ -10,7 +10,7 @@ public class BibliotecaAppTest {
 
     @Test
     public void userSeeWelcomeMessage() {
-        assertEquals(MessageHelper.welcome,  _bibliotecaApp.welcomeMessage());
+        assertEquals(MessageHelper.Welcome, "Welcome!");
 
     }
 }
